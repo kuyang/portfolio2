@@ -1,0 +1,26 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node":"8.12.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuyang/portfolio2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuyang/portfolio2/issues"
+  },
+  "homepage": "https://github.com/kuyang/portfolio2#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
