@@ -71,6 +71,14 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+video {
+	/* position: fixed; */
+	right: 0;
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+}
+
 
 /* Basic */
 
@@ -129,7 +137,6 @@ input, select, textarea {
 		font-size: 2em;
 		letter-spacing: -1px;
 	}
-
 		h2.alt {
 			color: #888;
 		}
@@ -211,6 +218,7 @@ input, select, textarea {
 	}
 
 /* Container */
+
 
 	.container {
 		margin: 0 auto;
@@ -2206,6 +2214,7 @@ input, select, textarea {
 			#main > section.dark {
 				color: #ddd;
 				color: rgba(255, 255, 255, 0.75);
+				
 			}
 
 				#main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
@@ -2235,6 +2244,12 @@ input, select, textarea {
 			#main > section.one {
 				background-color: #81918E;
 				background-image: url("../../images/banner.jpg");
+					/* position: fixed; */
+					right: 0;
+					bottom: 0;
+					min-width: 100%; 
+					min-height: 100%;
+				
 			}
 
 			#main > section.two {
@@ -2450,7 +2465,7 @@ input, select, textarea {
 				padding: 0.5em 1.25em 0.5em 1.25em;
 			}
 
-			#headerToggle {
+			/* #headerToggle {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2520,7 +2535,7 @@ input, select, textarea {
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
-			}
+			} */
 
 		/* Footer */
 
